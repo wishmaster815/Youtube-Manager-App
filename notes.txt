@@ -1,0 +1,14 @@
+json.dump():
+
+Imagine you have some data in your Python program, like a dictionary or a list.
+Now, you want to save this data into a file on your computer.
+json.dump() helps you do that. You give it your data (like a dictionary or a list) and tell it where to save it (the file).
+It turns your data into a format that can be easily stored in a file (JSON format) and then writes it to the file.
+After using json.dump(), you'll have your data saved in a file, ready to be used later.
+json.load():
+
+Now, let's say you saved some data in a file using json.dump() earlier.
+Later, you want to use this data again in your Python program.
+json.load() helps you with that. You tell it which file contains your saved data.
+It reads the data from the file and turns it back into the original Python data format (like a dictionary or a list) that you can use in your program.
+After using json.load(), you'll have your data back in your Python program, ready to be used just like before.
